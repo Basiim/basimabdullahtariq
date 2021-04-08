@@ -294,6 +294,10 @@ img {
     border-radius: 0.5rem;
 }
 
+.aboutText {
+    margin-bottom: var(--mb-2);
+}
+
 
 /* Work */
 
@@ -357,6 +361,18 @@ img {
 .workImgLast img:hover,
 .workImgFirst img:hover {
     scale: 1.1;
+}
+
+.cv {
+    text-decoration: none;
+    font-size: 1rem;
+    background-color: #ffea3063;
+    width: 20%;
+    padding: 0.3rem 1rem 0.3rem 1rem;
+    margin-top: 1rem;
+    border-radius: 50px;
+    text-align: center;
+    color: var(--second-color);
 }
 
 

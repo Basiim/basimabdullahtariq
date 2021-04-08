@@ -42,6 +42,7 @@ sr.reveal('.homeSocialIcon', { delay: 200 })
 sr.reveal('.aboutImg', {});
 sr.reveal('.aboutSubtitle', { delay: 400 });
 sr.reveal('.aboutText', { delay: 400 });
+sr.reveal('.cv', { delay: 600 });
 
 /* Scroll Work */
 const sw = ScrollReveal({
