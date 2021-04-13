@@ -25,6 +25,11 @@ function linkAction() {
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
+/* Loader 
+const tl = gsap.timeline({ defaults: { ease: 'power2.out' } });
+tl.to('.intro', { opacity: 0, duration: 0, delay: 2 });
+tl.to('.lds-grid', { display: none, duration: 2 }, '-=1'); */
+
 /* Scroll Animations */
 const sr = ScrollReveal({
     origin: 'top',
