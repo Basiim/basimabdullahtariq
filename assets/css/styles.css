@@ -375,7 +375,8 @@ img {
     color: var(--second-color);
 }
 
-.lds-grid {
+
+/*.lds-grid {
     display: inline-block;
     position: relative;
     width: 80px;
@@ -466,7 +467,7 @@ img {
     justify-content: center;
     align-items: center;
     z-index: 200;
-}
+}*/
 
 
 /* Media Queries */
