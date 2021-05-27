@@ -1,3 +1,5 @@
+//const { default: Typed } = require("typed.js")
+
 /// Menu Toggle
 const toggleMenu = (toggleId, navId) => {
     const toggle = document.getElementById(toggleId),
@@ -40,6 +42,7 @@ const sr = ScrollReveal({
 
 /* Scroll home */
 sr.reveal('.homeTitle', {})
+sr.reveal('#home_Title', {})
 sr.reveal('.homeImg', {})
 sr.reveal('.homeSocialIcon', { delay: 200 })
 
@@ -90,4 +93,73 @@ gsap.to(".workImg", {
         ease: 200,
         duration: 3
     }
+})
+
+/*typed.js*/
+var typed = new Typed('#w1', {
+    strings: ['E-commerce Website.^2000', 'Made using wordpress.^2000'],
+    typeSpeed: 40,
+    backSpeed: 40,
+    loop: true
+});
+var typed = new Typed('#w2', {
+    strings: ['Business Portfolio Website.^2000', 'Made using webflow.^2000'],
+    typeSpeed: 40,
+    backSpeed: 40,
+    loop: true
+});
+var typed = new Typed('#w3', {
+    strings: ['Portfolio Website.^2000', 'Made using HTML/CSS, Nodejs.^2000'],
+    typeSpeed: 40,
+    backSpeed: 40,
+    loop: true
+});
+var typed = new Typed('#w4', {
+    strings: ['Business Website.^2000', 'Made using wordpress.^2000'],
+    typeSpeed: 40,
+    backSpeed: 40,
+    loop: true
+});
+var typed = new Typed('#w5', {
+    strings: ['Portfolio Website.^2000', 'Made using HTML/CSS, Nodejs.^2000'],
+    typeSpeed: 40,
+    backSpeed: 40,
+    loop: true
+});
+var typed = new Typed('#w6', {
+    strings: ['Expense Manager.^2000', 'Made using Nodejs, mongoDB, handlebars.^2000'],
+    typeSpeed: 40,
+    backSpeed: 40,
+    loop: true
+});
+var typed = new Typed('#w7', {
+    strings: ['Conway\'s Game of life.^2000', 'Made using C.^2000'],
+    typeSpeed: 40,
+    backSpeed: 40,
+    loop: true
+});
+var typed = new Typed('#w8', {
+    strings: ['Bank Managment System.^2000', 'Made using OOP/C++.^2000'],
+    typeSpeed: 40,
+    backSpeed: 40,
+    loop: true
+});
+var typed = new Typed('#w9', {
+    strings: ['Sumo Robot.^2000', 'Made using arduino.^2000'],
+    typeSpeed: 40,
+    backSpeed: 40,
+    loop: true
+});
+var typed = new Typed('#w10', {
+    strings: ['Discord Bot.^2000', 'Made using Nodejs.^2000'],
+    typeSpeed: 40,
+    backSpeed: 40,
+    loop: true
+});
+var typed = new Typed('#home_Title', {
+    strings: ['^1000 Computer Engineer ^2000 | Web Designer'],
+    typeSpeed: 40,
+    backSpeed: 40,
+    showCursor: false
+
 })
