@@ -52,7 +52,6 @@
  ::before,
  ::after {
     box-sizing: border-box;
-    cursor: url('/assets/img/cursor.png'), auto;
 }
 
 html {
@@ -237,6 +236,14 @@ img {
 }
 
 
+/*background*/
+
+.l-main {
+    background-image: url("/assets/img/Pattern-Randomized.svg");
+    /* background by SVGBackgrounds.com */
+}
+
+
 /* Home */
 
 .home {
@@ -292,6 +299,11 @@ img {
 
 /* About */
 
+
+/*.l-header {
+    opacity: 0.9;
+}*/
+
 .aboutContainer {
     row-gap: 2rem;
     text-align: center;
@@ -321,7 +333,7 @@ img {
 
 .work {
     display: flex;
-    width: 90%;
+    /*width: 90%;*/
     align-items: top;
     justify-content: space-around;
     overflow: hidden;
@@ -448,7 +460,6 @@ img {
         width: 457px;
         bottom: 25%;
         margin-right: 3rem;
-        opacity: 0.6;
     }
     .aboutContainer {
         grid-template-columns: repeat(2, 1fr);
